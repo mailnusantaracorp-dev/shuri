@@ -1,0 +1,119 @@
+{
+  "playerSpeed": {
+    "type": "number",
+    "value": 1,
+    "min": 0.6,
+    "max": 1.6,
+    "step": 0.05,
+    "name": "Kecepatan Shuri",
+    "description": "How fast Shuri runs and dashes, on top of the skin's own speed bonus.",
+    "group": "def:player",
+    "index": 1
+  },
+  "skillCooldown": {
+    "type": "number",
+    "value": 1,
+    "min": 0.3,
+    "max": 2,
+    "step": 0.05,
+    "name": "Jeda skill",
+    "description": "Multiplies every skin's skill cooldown. Lower lets skills fire more often.",
+    "group": "def:player",
+    "index": 2
+  },
+  "kuroSpeed": {
+    "type": "number",
+    "value": 1,
+    "min": 0.6,
+    "max": 1.8,
+    "step": 0.05,
+    "name": "Kecepatan Kuro",
+    "description": "How fast Kuro flies out when thrown.",
+    "group": "def:kuro",
+    "index": 1
+  },
+  "kuroRange": {
+    "type": "number",
+    "value": 9,
+    "min": 5,
+    "max": 15,
+    "step": 0.5,
+    "name": "Jangkauan Kuro",
+    "description": "How many tiles Kuro travels before it turns back.",
+    "group": "def:kuro",
+    "index": 2
+  },
+  "enemyHp": {
+    "type": "number",
+    "value": 1,
+    "min": 0.3,
+    "max": 3,
+    "step": 0.1,
+    "name": "Darah monster",
+    "description": "Multiplies every monster's health. Higher makes areas slower and harder.",
+    "group": "def:enemy",
+    "index": 1,
+    "appliesOn": "restart"
+  },
+  "bossHp": {
+    "type": "number",
+    "value": 1,
+    "min": 0.3,
+    "max": 3,
+    "step": 0.1,
+    "name": "Darah bos",
+    "description": "Multiplies every boss's health.",
+    "group": "def:boss",
+    "index": 1,
+    "appliesOn": "restart"
+  },
+  "cameraZoom": {
+    "type": "number",
+    "value": 1,
+    "min": 0.7,
+    "max": 1.4,
+    "step": 0.05,
+    "name": "Zoom kamera",
+    "description": "Lower shows more of the area around Shuri; higher brings the camera closer.",
+    "group": "def:world",
+    "index": 1
+  },
+  "musicVolume": {
+    "type": "number",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.05,
+    "name": "Musik",
+    "description": "Volume of the background music.",
+    "group": "sound",
+    "index": 1
+  },
+  "sfxVolume": {
+    "type": "number",
+    "value": 0.8,
+    "min": 0,
+    "max": 1,
+    "step": 0.05,
+    "name": "Efek suara",
+    "description": "Volume of throws, hits and other effects.",
+    "group": "sound",
+    "index": 2
+  },
+  "muteAll": {
+    "type": "boolean",
+    "value": false,
+    "name": "Bisu",
+    "description": "Silences all sound.",
+    "group": "sound",
+    "index": 3
+  },
+  "showHitboxes": {
+    "type": "boolean",
+    "value": false,
+    "name": "Tampilkan hitbox",
+    "description": "Draws the collision boxes of Shuri, monsters and the boss.",
+    "group": "quick",
+    "index": 1
+  }
+}
